@@ -1,0 +1,8 @@
+{
+	"item.qianhun.qianhun_book": "千魂书",
+	"item.qianhun.heart_blood": "心脏温血",
+	"itemGroup.qianhun": "千魂",
+	"entity.qianhun.youzhi": "游尸",
+	"effect.qianhun.chosen": "神选",
+	"death.attack.qianhun": "%1$s 成了千魂书的一页"
+}

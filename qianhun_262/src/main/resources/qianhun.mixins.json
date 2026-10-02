@@ -1,0 +1,12 @@
+{
+	"required": true,
+	"minVersion": "0.8",
+	"package": "com.qianhun.client.mixin",
+	"compatibilityLevel": "JAVA_17",
+	"client": [
+		"WalkAnimationStateAccessor"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}

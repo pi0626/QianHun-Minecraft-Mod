@@ -1,0 +1,17 @@
+pluginManagement {
+	repositories {
+		// 阿里云公共仓库镜像，加速 Maven Central 构件
+		maven {
+			name = 'Aliyun'
+			url = 'https://maven.aliyun.com/repository/public'
+		}
+		maven {
+			name = 'Fabric'
+			url = 'https://maven.fabricmc.net/'
+		}
+		mavenCentral()
+		gradlePluginPortal()
+	}
+}
+
+rootProject.name = 'qianhun'

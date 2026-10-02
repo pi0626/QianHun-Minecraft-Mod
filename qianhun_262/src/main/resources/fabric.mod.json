@@ -1,0 +1,29 @@
+{
+	"schemaVersion": 1,
+	"id": "qianhun",
+	"version": "${version}",
+	"name": "千魂",
+	"description": "千魂书与 AI 许愿系统。改编自高铭小说《千魂》。",
+	"authors": [
+		"pi062"
+	],
+	"license": "All-Rights-Reserved",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.qianhun.QianhunMod"
+		],
+		"client": [
+			"com.qianhun.client.QianhunClient"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.19.0",
+		"minecraft": "~26.2",
+		"java": ">=25",
+		"fabric-api": "*"
+	},
+	"mixins": [
+		"qianhun.mixins.json"
+	]
+}

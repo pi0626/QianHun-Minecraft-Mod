@@ -1,0 +1,8 @@
+{
+	"item.qianhun.qianhun_book": "Book of a Thousand Souls",
+	"item.qianhun.heart_blood": "Warm Heart Blood",
+	"itemGroup.qianhun": "Qianhun",
+	"entity.qianhun.youzhi": "Youzhi",
+	"effect.qianhun.chosen": "Chosen",
+	"death.attack.qianhun": "%1$s became a page of the Qianhun Book"
+}

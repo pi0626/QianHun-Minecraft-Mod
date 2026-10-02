@@ -1,0 +1,86 @@
+{
+	"credit": "千魂书 3D 模型。原著 L4957：黑色羊皮封皮、封面无一字、页面边缘一圈金色镶嵌纹。",
+	"texture_size": [16, 16],
+	"textures": {
+		"0": "qianhun:item/qianhun_book",
+		"particle": "qianhun:item/qianhun_book"
+	},
+	"elements": [
+		{
+			"name": "pages",
+			"from": [3.5, 0.5, 4.5],
+			"to": [12.5, 13.5, 9.0],
+			"faces": {
+				"north": {"uv": [11, 2, 13, 13], "texture": "#0"},
+				"east": {"uv": [3, 5, 5, 13], "texture": "#0"},
+				"south": {"uv": [3, 2, 5, 13], "texture": "#0"},
+				"west": {"uv": [5, 5, 11, 13], "texture": "#0"},
+				"up": {"uv": [3, 4, 13, 6], "texture": "#0"},
+				"down": {"uv": [3, 11, 13, 13], "texture": "#0"}
+			}
+		},
+		{
+			"name": "cover",
+			"from": [3.0, 0.0, 3.5],
+			"to": [13.0, 14.0, 5.0],
+			"faces": {
+				"north": {"uv": [3, 2, 13, 13], "texture": "#0"},
+				"east": {"uv": [3, 3, 4, 13], "texture": "#0"},
+				"south": {"uv": [5, 3, 11, 13], "texture": "#0"},
+				"west": {"uv": [4, 3, 5, 13], "texture": "#0"},
+				"up": {"uv": [3, 2, 13, 4], "texture": "#0"},
+				"down": {"uv": [3, 12, 13, 14], "texture": "#0"}
+			}
+		},
+		{
+			"name": "spine",
+			"from": [2.0, 0.0, 3.5],
+			"to": [3.0, 14.0, 13.0],
+			"faces": {
+				"north": {"uv": [3, 2, 4, 13], "texture": "#0"},
+				"east": {"uv": [3, 2, 13, 13], "texture": "#0"},
+				"south": {"uv": [3, 2, 4, 13], "texture": "#0"},
+				"west": {"uv": [3, 3, 4, 13], "texture": "#0"},
+				"up": {"uv": [3, 3, 4, 13], "texture": "#0"},
+				"down": {"uv": [3, 3, 4, 13], "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [0, -90, 55],
+			"translation": [0, 4.0, 0.5],
+			"scale": [0.85, 0.85, 0.85]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [0, 90, -55],
+			"translation": [0, 4.0, 0.5],
+			"scale": [0.85, 0.85, 0.85]
+		},
+		"firstperson_righthand": {
+			"rotation": [0, -90, 25],
+			"translation": [1.13, 3.2, 1.13],
+			"scale": [0.68, 0.68, 0.68]
+		},
+		"firstperson_lefthand": {
+			"rotation": [0, 90, -25],
+			"translation": [1.13, 3.2, 1.13],
+			"scale": [0.68, 0.68, 0.68]
+		},
+		"gui": {
+			"rotation": [30, 45, 0],
+			"translation": [0, 0, 0],
+			"scale": [0.625, 0.625, 0.625]
+		},
+		"ground": {
+			"rotation": [0, 0, 0],
+			"translation": [0, 3, 0],
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"fixed": {
+			"rotation": [0, 180, 0],
+			"translation": [0, 0, 0],
+			"scale": [1.0, 1.0, 1.0]
+		}
+	}
+}
